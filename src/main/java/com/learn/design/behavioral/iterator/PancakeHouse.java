@@ -22,7 +22,7 @@ public class PancakeHouse {
         return menuItems;
     }
 
-    public Iterator createdPancakeHouseIterator(List<MenuItem> menuItems) {
+    public Iterator createPancakeHouseIterator(List<MenuItem> menuItems) {
         return new PancakeHouseIterator(menuItems);
     }
 }
