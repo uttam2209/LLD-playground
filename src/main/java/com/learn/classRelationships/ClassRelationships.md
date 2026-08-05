@@ -1,0 +1,5 @@
+- Normal inheritance
+- Association (One class uses another class. They both can live independently)
+- Aggregation (One class has a group of other class. The grouped class can live independently)
+- Composition (One class manages lifecycle of other dependent class. Dependent)
+- Dependency
