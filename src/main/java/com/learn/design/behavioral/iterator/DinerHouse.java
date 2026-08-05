@@ -20,7 +20,11 @@ public class DinerHouse {
         noOfItems = noOfItems + 1;
     }
 
-    public MenuItem[] getPancakeMenuItems() {
+    public MenuItem[] getDinerHouseMenuItems() {
         return menuItems;
+    }
+
+    public Iterator createDinerIterator(MenuItem[] menuItems) {
+        return new DinerHouseIterator(menuItems);
     }
 }

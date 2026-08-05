@@ -21,4 +21,8 @@ public class PancakeHouse {
     public List<MenuItem> getPancakeMenuItems() {
         return menuItems;
     }
+
+    public Iterator createdPancakeHouseIterator(List<MenuItem> menuItems) {
+        return new PancakeHouseIterator(menuItems);
+    }
 }
